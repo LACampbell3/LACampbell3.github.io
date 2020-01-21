@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="shortcut icon" type="image/png" href="assets/images/lc-favicon-white-bkgd.png">
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap" rel="stylesheet">
+    <title>Project: Words For Us App</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+    <body>
+      <div class="topnav">
+        <a class="active">Luke Campbell</a>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Work</a>
+      </div>
+
+      <div class="container">
+        <section id="main">
+          <h2>Words For Us App (2016)</h2>
+          <hr width="95%" color=#3E7ECB background=#ffffff/>
+          <img id="applogo" src="assets/images/words-for-us-app-logo.png" alt="Luke Campbell" />
+          <p>
+            In 2015, I investigated app development and started planning the creation of my idea for an app that would be a customizable version of the game <i>Catch Phrase</i>
+            I contracted the build of the app from a developer in my network, beginning in Spring 2016. I directed the design, performed QA testing and solicited feedback from friends, and marketed the app on my own.
+            The app was launched in the iOS app store in June 2016, and I directed bug fixes and improvements through the Fall. An Android version was also built and in beta testing at this time.
+          </p>
+          <p>
+            Managing the development project and everything it entailed (negotiation, development timeline, product tradeoffs, launch and organic marketing strategy, bug fixing) taught me valuable lessons
+            in product management and caught the eye of my friend, Edward Hill, who was looking for a co-founder for Fisher Guiding. Given the opportunity to join Edward, I committed to launching Fisher Guiding.
+            I knew I had to focus my time on Fisher Guiding and ending well at my full-time job in market research, and I had to conserve my savings for the Fisher Guiding journey ahead at the expense of continuing
+            development on Words For Us. I stopped operating Words For Us at the end of 2016, though it was an important first step in my career as an entrepreneur.
+          </p>
+            <hr width="95%" color=#3E7ECB background=#ffffff/>
+            <h2>App Screens</h2>
+
+            <!-- Container for the image gallery -->
+            <div class="gallery-container">
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!-- Image text -->
+              <div class="caption-gallery">
+                <p id="caption"></p>
+              </div>
+
+              <!-- Full-width images with number text -->
+              <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                  <img src="assets/images/wfu-login-success.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                  <img src="assets/images/wfu-all-categories.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                  <img src="assets/images/wfu-popular-and-recent-plays.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                  <img src="assets/images/wfu-search-lists-music.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                  <img src="assets/images/wfu-list-out-of-library.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                  <img src="assets/images/wfu-musicians-list-in-library.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                  <img src="assets/images/wfu-list-creation.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                  <img src="assets/images/wfu-select-lists-one.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                  <img src="assets/images/wfu-select-lists.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                  <img src="assets/images/wfu-game-setup.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                  <img src="assets/images/wfu-gameplay-ex.png" style="width:25%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                  <img src="assets/images/wfu-score.png" style="width:25%">
+              </div>
+
+              <!-- Thumbnail images -->
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-login-success.png" style="width:25%" onclick="currentSlide(1)" alt="Login">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-all-categories.png" style="width:25%" onclick="currentSlide(2)" alt="Categories">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-popular-and-recent-plays.png" style="width:25%" onclick="currentSlide(3)" alt="List sorting">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-search-lists-music.png" style="width:25%" onclick="currentSlide(4)" alt="Search lists">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-list-out-of-library.png" style="width:25%" onclick="currentSlide(5)" alt="List view (out of library)">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-musicians-list-in-library.png" style="width:25%" onclick="currentSlide(6)" alt="List view (in library)">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-list-creation.png" style="width:25%" onclick="currentSlide(7)" alt="List creation">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-select-lists-one.png" style="width:25%" onclick="currentSlide(8)" alt="Single list selected for gameplay">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-select-lists.png" style="width:25%" onclick="currentSlide(9)" alt="Multiple lists selected for gameplay">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-game-setup.png" style="width:25%" onclick="currentSlide(10)" alt="Game setup">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-gameplay-ex.png" style="width:25%" onclick="currentSlide(11)" alt="Gameplay example">
+                </div>
+                <div class="gallery-column">
+                  <img class="demo cursor" src="assets/images/wfu-score.png" style="width:25%" onclick="currentSlide(12)" alt="Post-round score">
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+        <div class="footer">
+          <div class="footer-cr">
+          <p> Copyright @ Luke Campbell </p>
+          </div>
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- Add font awesome icons -->
+          <a href="https://www.instagram.com/lcworldpics/" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/luke-campbell-153aa03a/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://twitter.com/LCWorldPeace" target="_blank" class="fa fa-twitter"></a>
+        </div>
+    </body>
+  </html>
