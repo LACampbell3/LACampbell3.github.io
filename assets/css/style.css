@@ -89,7 +89,6 @@ button {
   margin-top: 15px;
   margin-right: 20px;
   float: left;
-  position: relative;
 }
 
 li a:hover:not(.active) {
@@ -239,7 +238,6 @@ li a:hover:not(.active) {
 .prev,
 .next {
   cursor: pointer;
-  position: relative;
   top: 40%;
   width: auto;
   padding: 10px;
@@ -268,7 +266,6 @@ li a:hover:not(.active) {
 .numbertext {
   color: #3E7ECB;
   font-size: 18px;
-  position: relative;
   padding-bottom: 10px;
 }
 
