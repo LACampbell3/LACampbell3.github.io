@@ -8,3 +8,5 @@ description: A personal website created by Luke Campbell to showcase work from h
 
 # Attempting to keep formatting from css stylesheet
 theme: null
+
+permalink: pretty
