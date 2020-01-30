@@ -212,24 +212,32 @@ li a:hover:not(.active) {
 @media screen and (max-width: 980px) {
   #main {
     width: 80%;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 768 px) {
   #main {
     width: 80%;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 640px) {
   #main {
     width: 80%;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 440px) {
     #main {
         width: 80%;
+        padding-top: 80px;
+        padding-bottom: 40px;
     }
 }
 
