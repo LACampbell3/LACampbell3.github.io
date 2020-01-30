@@ -74,6 +74,280 @@ button {
   margin: auto;
   width: 968px;
   border: 0px solid #3489B3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#image {
+  width: 20%;
+  height: 20%;
+  margin-right: 20px;
+  float: left;
+}
+
+#applogo {
+  width: 15%;
+  height: 15%;
+  margin-top: 15px;
+  margin-right: 20px;
+  float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #ffffff;
+}
+
+.active {
+  background-color: #4aaaa5;
+  font-family: 'Montserrat', 'Nunito', 'Helvetica', Helvetica, sans-serif;
+  font-size: 24px;
+  margin-right: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFD77E;
+  width: 100%;
+  display: flex;
+  border-bottom: 2px solid #3E7ECB;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: #3E7ECB; /*fontcolor*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: #cccccc;
+}
+
+.topnav a:hover {
+  background-color: #76E88D;
+  color: black;
+}
+
+.topnav a:hover {
+  background-color: #76E88D;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FFD77E; /*fill behind active class in top left*/
+  color: #3E7ECB;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFD77E;
+  color: #3E7ECB;
+  text-align: center;
+  font-size: smaller;
+  display: block;
+  border-top: 2px solid #3E7ECB;
+  padding-top: 4px;
+  padding-left: 14px;
+}
+
+.footer-cr {
+  float: left;
+}
+
+.fa {
+  position: relative;
+  float: right;
+  margin: 5px 5px;
+  padding: 12px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.55;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0E76A8;
+  color: white;
+}
+
+.fa-instagram {
+  background: #3F729B;
+  color: white;
+  margin-right: 25px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/*Clearfix (clear floats) */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 10000px) {
+    #main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+  #main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768 px) {
+  #main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #main {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+    #main {
+        width: 80%;
+    }
+}
+
+/* Position the image container (needed to position the left and right arrows) ... LC note: changed class from .container to .gallery since already had a container class */
+.gallery-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  top: 40%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  color: #3E7ECB;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px 0px 0px 10px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #76E88D;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #3E7ECB;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: blue;
+}
+
+/* Gallery columns side by side. LC changed .active class to .gallery-active since already had an .active class */
+.gallery-column {
+  float: left;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 8.33%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+/* LC changed .active class to .gallery-active since already had an .active class */
+.gallery-active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+textarea {
+  width: 100%;
+}
+
+section {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  backgrond-color: #4aaaa5;
+  font-family: 'Montserrat', 'Nunito', 'Helvetica', Helvetica, sans-serif;
+}
+
+.container { /*center of page with body section contained within it*/
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.hr {
+  line-height: 1px;
+  width: 95%;
+  color: #ffffff;
+}
+
+#main { /*class for main content section*/
+  width: 100%;
+  background-color: #ffffff;
+  margin: auto;
+  width: 968px;
+  border: 0px solid #3489B3;
 }
 
 #image {
